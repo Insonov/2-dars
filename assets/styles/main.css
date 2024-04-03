@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: inherit;
+    list-style: none;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    padding: 40px 0 96px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 86px;
+}
+
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+
+nav ul li{
+    color: #1f1534;
+    opacity: 0.7;
+    transition: 0.4s ease-in-out;
+}
+
+nav ul li :hover{
+    color: #000;
+    opacity: 1;
+}
+
+.showcase{
+    display: flex;
+    align-items: center;
+}
+
+.showcase-left h1{
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.showcase-left p{
+    color: #7d7987;
+    padding: 30px 0 40px;
+    font-size: 21px;
+    line-height: 32px;
+}
+
+.showcase button{
+    padding: 16px 38px 17px 37px;
+    border-radius: 55px;
+    border: 1px solid transparent;
+    background-color: #458ff6;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.service h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service p{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #7D7987;
+    padding: 61px 325px 50px 323px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.cards h3{
+    font-size: 24px;
+    line-height: 56px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.card{
+    width: 31%;
+    text-align: center;
+    color: #000000;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+}
+
+.cards img{
+    display: flex;
+    align-items: right;
+}
+
+.card{
+    border: 1px solid #dddddd;
+    border-radius: 20px;
+    height: 380px;
+    padding: 50px;
+}
+
+.bbb{
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    width: 200px;
+    height: 56px;
+    font-size: medium;
+    color: #458FF6;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 490px 106px 440px;
+}
+
+.h{
+    font-size: 36px;
+    color: #000000;
+    line-height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
